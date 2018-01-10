@@ -42,13 +42,18 @@ input[type="submit"],input[type="reset"],a,.w3ls_services_grid,.w3ls_footer_grid
 .header-nav {
     float: right;
 }
+#nav-align{
+  text-align: left;
+  padding: 10px;
+}
 .w3_agile_logo h1 a{
-	font-size: .6em;
+	font-size: .5em;
     color: #212121;
     letter-spacing: 5px;
     text-transform: uppercase;
     text-decoration: none;
     display: block;
+    padding-right: 10px;
 }
 .w3_agile_logo h1 a span{
 	font-size: 2em;
