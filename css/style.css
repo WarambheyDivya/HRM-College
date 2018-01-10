@@ -325,6 +325,7 @@ a.w3_agile_vimeo:hover{
 .banner-slider {
 
 }
+
 .w3l_banner_info {
 	border: solid 7px rgba(255, 255, 255, 0.67);
     padding: 3em;
@@ -551,19 +552,19 @@ a.w3_agile_vimeo:hover{
     z-index: 9;
 }
 .agileits-banner-info{
-	background: url(../images/banner.jpg) no-repeat 0px 0px;
+	background: url(../images/slider_img1.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 630px;
     padding: 12em 0;
 }
 .agileits-banner-info1{
-	background: url(../images/banner.jpg) no-repeat 0px 0px;
+	background: url(../images/slider_img2.jpg) no-repeat 0px 0px;
 	  background-size: cover;
     min-height: 630px;
     padding: 12em 0;
 }
 .agileits-banner-info2{
-	background: url(../images/banner.jpg) no-repeat 0px 0px;
+	background: url(../images/slider_img3.jpg) no-repeat 0px 0px;
 	  background-size: cover;
     min-height: 630px;
     padding: 12em 0;
@@ -624,6 +625,81 @@ a.w3_agile_vimeo:hover{
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+.recruit_image1{
+  background : url(../images/infosys.jpg) no-repeat 0px 0px;
+  background-size: cover;
+    -webkit-background-size: auto 100%r;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+  padding: 12em 0 0;
+}
+.recruit_image2{
+  background : url(../images/cognizant.png) no-repeat 0px 0px;
+  background-size: cover;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+  padding: 12em 0 0;
+}
+.recruit_image3{
+  background : url(../images/accenture.jpg) no-repeat 0px 0px;
+  background-size: cover;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+  padding: 12em 0 0;
+}
+.recruit_image4{
+  background : url(../images/persistent.png) no-repeat 0px 0px;
+  background-size: cover;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+  padding: 12em 0 0;
+}
+.recruit_image5{
+  background : url(../images/wipro.jpg) no-repeat 0px 0px;
+  background-size: cover;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+  padding: 12em 0 0;
+}
+.recruit_image6{
+  background : url(../images/tcs.jpg) no-repeat 0px 0px;
+  background-size: cover;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+  padding: 12em 0 0;
+}
+.recruit_image7{
+  background : url(../images/lnt.jpg) no-repeat 0px 0px;
+  background-size: cover;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+  padding: 12em 0 0;
+}
+.recruit_image8{
+  background : url(../images/hcl.jpg) no-repeat 0px 0px;
+  background-size: cover;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+  padding: 12em 0 0;
+}
+.row{
+  padding: 20px 20px 20px 20px;
+}
 .w3layouts_header h5 span{
 	color:#212121;
 }
@@ -643,7 +719,7 @@ a.w3_agile_vimeo:hover{
 	opacity:.8;
 }
 .agileits_services_grid{
-	background: url(../images/g3.jpg) no-repeat 0px 0px;
+	background: url(../images/img_news.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -652,7 +728,7 @@ a.w3_agile_vimeo:hover{
 	padding: 12em 0 0;
 }
 .agileits_services_grid1{
-	background: url(../images/g2.jpg) no-repeat 0px 0px;
+	background: url(../images/slider_img2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -661,7 +737,7 @@ a.w3_agile_vimeo:hover{
 	padding: 12em 0 0;
 }
 .agileits_services_grid2{
-	background: url(../images/g1.jpg) no-repeat 0px 0px;
+	background: url(../images/img_courses.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -670,7 +746,7 @@ a.w3_agile_vimeo:hover{
 	padding: 12em 0 0;
 }
 .agileits_services_grid3{
-	background: url(../images/4.jpg) no-repeat 0px 0px;
+	background: url(../images/img_recentactivities.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -679,7 +755,7 @@ a.w3_agile_vimeo:hover{
 	padding: 18em 0 0;
 }
 .agileits_services_grid4{
-	background: url(../images/5.jpg) no-repeat 0px 0px;
+	background: url(../images/img_gallery.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -703,7 +779,7 @@ a.w3_agile_vimeo:hover{
 /*-- //services --*/
 /*-- statistics --*/
 .statistics {
-    background: url(../images/footer.jpg) no-repeat 0px 0px;
+    background: url(../images/footer2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
