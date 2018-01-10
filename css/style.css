@@ -60,6 +60,34 @@ input[type="submit"],input[type="reset"],a,.w3ls_services_grid,.w3ls_footer_grid
     color: #ef543b;
     text-shadow:0px 3px 1px #d93920;
 }
+#quick_links {
+  text-decoration: none;
+  color: white;
+
+}
+.w3-agileits-subscribe-form #contact_us2 input[type="text"]
+{
+   padding-top: 2.2em;
+   padding-left: 2.2em;
+   padding-bottom: 2.2em;
+   opacity: .2;
+}
+.w3-agileits-subscribe-form #contact_us1 input[type="text"]
+{
+  padding-top: .4em;
+  padding-bottom: .4em;
+  padding-right: .4em;
+  opacity: .2;
+  color: white;
+}
+
+.w3-agileits-subscribe-form #contact_us2 .btn1
+{ 
+  padding: .5em;
+  
+}
+
+
 .agileits_social_list li{
 	display:inline-block;
 }
@@ -943,14 +971,15 @@ a.w3_agile_vimeo:hover{
 /*-- //featured-services --*/
 /*-- subscribe --*/
 .w3-agileits-subscribe-form {
-    margin: 1em 0;
+    margin:1em 0;
 }
 .w3-agileits-subscribe-form input[type="text"] {
     display: inline-block;
     background:#ececec;
-    width: 73%;
+    width: 100%;
     outline: none;
     padding: 1em;
+    margin-bottom: 1em;
     font-size: .875em;
     color: #999999;
     border: solid 2px #ececec;
@@ -2229,7 +2258,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
     margin-bottom: 2em;
 }
 .w3-agileits-subscribe-form input[type="text"] {
-    width: 70%;
+    width: 100%;
 }
 .gallery-grids-left {
     width: 100%;
@@ -2391,7 +2420,13 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 }
 .w3-agileits-subscribe-form input[type="text"] {
     width: 63%;
+
 }
+.w3-agileits-subscribe-form{
+  margin: 30px;
+}
+
+
 .gallery {
     padding: 2em 0;
 }
