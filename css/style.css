@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .aligned-text {
       word-wrap: break-word;
         text-wrap: normal;
@@ -7,6 +8,32 @@
             -moz-text-align-last: left;
         text-align-last: left;
         text-justify: inter-word;
+=======
+.w3layouts_header hr {
+      width: 10%;
+      height: 0;
+      border: 1px solid red;
+    }
+    .campus-container {
+      margin-top: 5%;
+    }
+
+    .campus-image {
+      height: 150px; 
+      width: 100%;
+      background: red;
+      border-radius: 2.5px;
+    }
+    .campus-data {
+      height: auto;
+      width: 100%;
+      color: black;
+      text-align: center;
+      font-size: 1.3em;
+      margin-top: 8px;
+      opacity: 0.7;
+      
+>>>>>>> 68aced91b2328d69382d775081f236cd79d816fd
     }
 html, body{
     font-size: 100%;
