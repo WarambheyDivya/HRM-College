@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .aligned-text {
       word-wrap: break-word;
         text-wrap: normal;
@@ -8,7 +8,7 @@
             -moz-text-align-last: left;
         text-align-last: left;
         text-justify: inter-word;
-=======
+}
 .w3layouts_header hr {
       width: 10%;
       height: 0;
