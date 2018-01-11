@@ -1,9 +1,13 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+.aligned-text {
+      word-wrap: break-word;
+        text-wrap: normal;
+        word-break: keep-words;
+        letter-spacing: 0.50px;
+        text-align: justify;
+            -moz-text-align-last: left;
+        text-align-last: left;
+        text-justify: inter-word;
+    }
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -610,7 +614,7 @@ a.w3_agile_vimeo:hover{
 .services{
 	padding:5em 0;
 }
-.w3layouts_header{
+.layouts_header{
 	text-align:center;
 }
 .w3layouts_header p{

@@ -197,7 +197,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="campus_tour">
 		<div class="container">
 			<div style="height: 80px; width: 100%"></div>
-			<div class="w3layouts_header">
+			<div class="w3layouts_header" style="text-align: center;">
 				<h5><span>TAKE A </span>CAMPUS TOUR</h5>
 				<hr />
 			</div>
@@ -298,7 +298,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="top-recruiters">
 		<div class="container">
 			<div style="height: 50px; width: 100%;"></div>
-			<div class="w3layouts_header">
+			<div class="w3layouts_header" style="text-align: center;">
 				<h5><span>TOP  </span>RECRUITERS</h5>
 				<hr />
 			</div>
@@ -405,7 +405,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="services">
 		<div class="container">
 
-					<div class="w3layouts_header">
+					<div class="w3layouts_header" style="text-align: center;">
 						<h5><span>COLLEGE  </span>FACILITIES</h5>
 						<hr />
 					</div>
