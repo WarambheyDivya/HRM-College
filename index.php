@@ -165,6 +165,112 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 <!-- //statistics -->
 
+<!-- campus tour -->
+	<style type="text/css">
+		.w3layouts_header hr {
+			width: 10%;
+			height: 0;
+			border: 1px solid red;
+		}
+		.campus-container {
+			margin-top: 5%;
+		}
+
+		.campus-image {
+			height: 150px; 
+			width: 100%;
+			background: red;
+			border-radius: 2.5px;
+		}
+		.campus-data {
+			height: auto;
+			width: 100%;
+			color: black;
+			text-align: center;
+			font-size: 1.3em;
+			margin-top: 8px;
+			opacity: 0.7;
+			
+		}
+	</style>
+
+	<div class="campus_tour">
+		<div class="container">
+			<div style="height: 80px; width: 100%"></div>
+			<div class="w3layouts_header">
+				<h5><span>TAKE A </span>CAMPUS TOUR</h5>
+				<hr />
+			</div>
+			<h4 style="margin-top: 10px; text-align: center;">Our campus have a lot to offer for our students; feel free to call us to book a visit.</h4>
+
+			<div class="container-fluid campus-container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="campus-image">
+						</div>
+						<div class="campus-data">
+							Placements
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="campus-image">
+						</div>
+						<div class="campus-data">
+							HRM Culture
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="campus-image">
+						</div>
+						<div class="campus-data">
+							HRM Culture
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="campus-image">
+						</div>
+						<div class="campus-data">
+							HRM Library
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="campus-image">
+						</div>
+						<div class="campus-data">
+							HRM Library
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="campus-image">
+						</div>
+						<div class="campus-data">
+							Tech Fest
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="campus-image">
+						</div>
+						<div class="campus-data">
+							Cultural Fest
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="campus-image">
+						</div>
+						<div class="campus-data">
+							GRACIA
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+<!-- campus tour ends here -->
+
 <!-- odometer-script -->
 	<script src="js/odometer.js"></script>
 	<script>
@@ -189,10 +295,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 <!-- //odometer-script -->
 <!-- featured-services -->
-	<div class="services">
+	<div class="top-recruiters">
 		<div class="container">
+			<div style="height: 50px; width: 100%;"></div>
 			<div class="w3layouts_header">
 				<h5><span>TOP  </span>RECRUITERS</h5>
+				<hr />
 			</div>
 			
 				<div class="w3layouts_skills_grids w3layouts_featured_services_grids">
@@ -224,6 +332,84 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="recruit_image8"></div>
 						</div>
 					</div>
+		</div>
+	</div>
+
+	<style type="text/css">
+		.mission-vision {
+			background: url(images/banner.jpg) no-repeat 0px 0px;
+    		background-size: cover;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           -ms-background-size: cover;
+           background-attachment: fixed;
+           min-height: 600px;
+		}
+		.mission-vision .container-fluid {
+			background-color: rgba(200,106,21,0.2);
+			min-height: 600px;
+		}
+		.mission-vision h5 {
+			color: white;
+			font-weight: 500;
+			margin-top: 8%;
+			text-align: center;
+		}
+		.mission-vision p {
+			color: white;
+			font-size: 1.1em;
+		}
+		.aligned-text {
+			word-wrap: break-word;
+    		text-wrap: normal;
+    		word-break: keep-words;
+	    	letter-spacing: 0.50px;
+    		text-align: justify;
+            -moz-text-align-last: center;
+    		text-align-last: center;
+    		text-justify: inter-word;
+		}
+		@media only screen and (max-width: 600px) {
+			.mission-vision p {
+				font-size: 0.95em;
+			}
+		}
+	</style>
+
+	<div style="height: 50px; width: 100%"></div>
+	<div class="mission-vision">
+		<div class="container-fluid">
+			<div class="container">
+				
+				<div class="w3layouts_header">
+					<h5>OUR VISION</h5>
+				</div>
+				<p class="aligned-text">
+				Perceiving qualitative higher education as the medium of bridging the gap between the rapidly developing towns and the most underdeveloped villages and the hamlets of Khed Taluka, we visualize inculcating small –skill based and knowledge-based educational values to promote vocational competence, intellectual abilities, humanistic values, and social awareness by adopting changing concepts used in contemporary educational systems.
+				</p>
+
+				<div class="w3layouts_header">
+					<h5>OUR MISSION</h5>
+				</div>
+				<p class="aligned-text">
+				Our mission is to lead the socially and economically backward inhabitants of the hilly and tribal villages of Khed taluka from the darkness of ignorance to the light of knowledge, wisdom, sagacity, and human values. Education is not perceived as an end in itself, but a means and device to achieve these objectives in the journey towards developing the best qualities of head, hand and heart. Our aim is to provide the students with the best possible facilities to develop their communicative competence, vocational skills and confidence to face the rapid changes and challenges of the time.
+				</p>
+
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="services">
+		<div class="container">
+
+					<div class="w3layouts_header">
+						<h5><span>COLLEGE  </span>FACILITIES</h5>
+						<hr />
+					</div>
+					<div style="height: 50px; width: 100%;"></div>
 
 					<div class="col-md-6 w3_featured_services_left">
 						<div class="w3_featured_services_left_grid">
@@ -285,7 +471,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				
 				<div class="clearfix"> </div>
-			</div>
 		</div>
 	</div>
 <!-- //featured-services -->
