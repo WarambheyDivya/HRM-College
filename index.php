@@ -166,34 +166,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //statistics -->
 
 <!-- campus tour -->
-	<style type="text/css">
-		.w3layouts_header hr {
-			width: 10%;
-			height: 0;
-			border: 1px solid red;
-		}
-		.campus-container {
-			margin-top: 5%;
-		}
-
-		.campus-image {
-			height: 150px; 
-			width: 100%;
-			background: red;
-			border-radius: 2.5px;
-		}
-		.campus-data {
-			height: auto;
-			width: 100%;
-			color: black;
-			text-align: center;
-			font-size: 1.3em;
-			margin-top: 8px;
-			opacity: 0.7;
-			
-		}
-	</style>
-
 	<div class="campus_tour">
 		<div class="container">
 			<div style="height: 80px; width: 100%"></div>
