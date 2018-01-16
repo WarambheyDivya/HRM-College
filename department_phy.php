@@ -71,19 +71,61 @@
 			<div style="padding-top: 2em;">
 				<ul class="nav nav-tabs">
 				  <li class="nav-item" style="font-size: 1.4em;">
-				    <a class="nav-link active" href="#">Notice</a>
+				    <a class="nav-link active" onclick="notice()">Notice</a>
 				  </li>
 				  <li class="nav-item" style="font-size: 1.4em;">
-				    <a class="nav-link" href="#">Result</a>
+				    <a class="nav-link" onclick="result()">Result</a>
 				  </li>
 				  <li class="nav-item" style="font-size: 1.4em;">
-				    <a class="nav-link" href="#">Syllabus</a>
+				    <a class="nav-link" onclick="syllabus()">Syllabus</a>
 				  </li>
 				  <li class="nav-item" style="font-size: 1.4em;">
-				    <a class="nav-link disabled" href="#">Achievements</a>
+				    <a class="nav-link disabled" onclick="achievement()">Achievements</a>
 				  </li>
 				</ul>
 			</div>
+			<script type="text/javascript">
+					function notice()
+					{
+						document.getElementById('notice').style.display = "block";
+						document.getElementById('result').style.display = "none";
+						document.getElementById('syllabus').style.display = "none";
+						document.getElementById('achievement').style.display = "none";
+					}
+					function result()
+					{
+						document.getElementById('notice').style.display = "none";
+						document.getElementById('result').style.display = "block";
+						document.getElementById('syllabus').style.display = "none";
+						document.getElementById('achievement').style.display = "none";
+					}
+					function syllabus()
+					{
+						document.getElementById('notice').style.display = "none";
+						document.getElementById('result').style.display = "none";
+						document.getElementById('syllabus').style.display = "block";
+						document.getElementById('achievement').style.display = "none";
+					}
+					function achievement()
+					{
+						document.getElementById('notice').style.display = "none";
+						document.getElementById('result').style.display = "none";
+						document.getElementById('syllabus').style.display = "none";
+						document.getElementById('achievement').style.display = "block";
+					}
+				</script>
+			<div id="notice" class="aligned-text" >
+				<p style="font-size: 1.2em; padding-top: 1.5em; " >The department of physics was established along with the establishment of the college in 1977. T.Y.B.Sc. Classes started in 1989. Prof. V. D. Kulkarni is the Head of the Department of physics. The physics laboratory consists of a general laboratory, a dark room and a computer room. The laboratory has adequate equipments for performing various experiments. The department of Physics runs a hobby center for sky observation for last four years. The Department runs a programme to create awareness regarding Energy Saving. The department also arranges visits of students to different institutes like IUCCA Pune,GMRT khodad,NCL Pune, Dept. of Physics,University of Pune, Vidnyan Ashram Pabal. The lecturers of distinguished guests are also arranged by the Department.</p>
+			</div>
+			<div id="result" class="aligned-text" style="display: none;">
+					<p style="font-size: 1.2em; padding-top: 1.5em; " >The department of physics was established along with the establishment of the college in 1977. T.Y.B.Sc. Classes started in 1989. Prof. V. D. Kulkarni is the Head of the Department of physics. The physics laboratory consists of a general laboratory, a dark room and a computer room. The laboratory has adequate equipments for performing various experiments. The department of Physics runs a hobby center for sky observation for last four years. The Department runs a programme to create awareness regarding Energy Saving. The department also arranges visits of students to different institutes like IUCCA Pune,GMRT khodad,NCL Pune, Dept. of Physics,University of Pune, Vidnyan Ashram Pabal. The lecturers of distinguished guests are also arranged by the Department.<br>The department of physics was established along with the establishment of the college in 1977. T.Y.B.Sc. Classes started in 1989. Prof. V. D. Kulkarni is the Head of the Department of physics. The physics laboratory consists of a general laboratory, a dark room and a computer room. The laboratory has adequate equipments for performing various experiments. The department of Physics runs a hobby center for sky observation for last four years. The Department runs a programme to create awareness regarding Energy Saving. The department also arranges visits of students to different institutes like IUCCA Pune,GMRT khodad,NCL Pune, Dept. of Physics,University of Pune, Vidnyan Ashram Pabal. The lecturers of distinguished guests are also arranged by the Department.</p>
+				</div>
+				<div id="syllabus" class="aligned-text" style="display: none;">
+					<p style="font-size: 1.2em; padding-top: 1.5em; " >The department of physics was established along with the establishment of the college in 1977. T.Y.B.Sc. Classes started in 1989. Prof. V. D. Kulkarni is the Head of the Department of physics. The physics laboratory consists of a general laboratory, a dark room and a computer room. The laboratory has adequate equipments for performing various experiments. The department of Physics runs a hobby center for sky observation for last four years. The Department runs a programme to create awareness regarding Energy Saving. The department also arranges visits of students to different institutes like IUCCA Pune,GMRT khodad,NCL Pune, Dept. of Physics,University of Pune, Vidnyan Ashram Pabal. The lecturers of distinguished guests are also arranged by the Department.<br>The department of physics was established along with the establishment of the college in 1977. T.Y.B.Sc. Classes started in 1989. Prof. V. D. Kulkarni is the Head of the Department of physics. The physics laboratory consists of a general laboratory, a dark room and a computer room. The laboratory has adequate equipments for performing various experiments. The department of Physics runs a hobby center for sky observation for last four years. The Department runs a programme to create awareness regarding Energy Saving. The department also arranges visits of students to different institutes like IUCCA Pune,GMRT khodad,NCL Pune, Dept. of Physics,University of Pune, Vidnyan Ashram Pabal. The lecturers of distinguished guests are also arranged by the Department.<br>The department of physics was established along with the establishment of the college in 1977. T.Y.B.Sc. Classes started in 1989. Prof. V. D. Kulkarni is the Head of the Department of physics. The physics laboratory consists of a general laboratory, a dark room and a computer room. The laboratory has adequate equipments for performing various experiments. The department of Physics runs a hobby center for sky observation for last four years. The Department runs a programme to create awareness regarding Energy Saving. The department also arranges visits of students to different institutes like IUCCA Pune,GMRT khodad,NCL Pune, Dept. of Physics,University of Pune, Vidnyan Ashram Pabal. The lecturers of distinguished guests are also arranged by the Department.</p>
+				</div>
+				<div id="achievement" class="aligned-text" style="display: none;">
+					<p style="font-size: 1.2em; padding-top: 1.5em; " >The department of physics was established along with the establishment of the college in 1977. T.Y.B.Sc. Classes started in 1989. Prof. V. D. Kulkarni is the Head of the Department of physics. The physics laboratory consists of a general laboratory, a dark room and a computer room. The laboratory has adequate equipments for performing various experiments. The department of Physics runs a hobby center for sky observation for last four years. The Department runs a programme to create awareness regarding Energy Saving. The department also arranges visits of students to different institutes like IUCCA Pune,GMRT khodad,NCL Pune, Dept. of Physics,University of Pune, Vidnyan Ashram Pabal. The lecturers of distinguished guests are also arranged by the Department.<br>The department of physics was established along with the establishment of the college in 1977. T.Y.B.Sc. Classes started in 1989. Prof. V. D. Kulkarni is the Head of the Department of physics. The physics laboratory consists of a general laboratory, a dark room and a computer room. The laboratory has adequate equipments for performing various experiments. The department of Physics runs a hobby center for sky observation for last four years. The Department runs a programme to create awareness regarding Energy Saving. The department also arranges visits of students to different institutes like IUCCA Pune,GMRT khodad,NCL Pune, Dept. of Physics,University of Pune, Vidnyan Ashram Pabal. The lecturers of distinguished guests are also arranged by the Department.<br>The department of physics was established along with the establishment of the college in 1977. T.Y.B.Sc. Classes started in 1989. Prof. V. D. Kulkarni is the Head of the Department of physics. The physics laboratory consists of a general laboratory, a dark room and a computer room. The laboratory has adequate equipments for performing various experiments. The department of Physics runs a hobby center for sky observation for last four years. The Department runs a programme to create awareness regarding Energy Saving. The department also arranges visits of students to different institutes like IUCCA Pune,GMRT khodad,NCL Pune, Dept. of Physics,University of Pune, Vidnyan Ashram Pabal. The lecturers of distinguished guests are also arranged by the Department.<br>The department of physics was established along with the establishment of the college in 1977. T.Y.B.Sc. Classes started in 1989. Prof. V. D. Kulkarni is the Head of the Department of physics. The physics laboratory consists of a general laboratory, a dark room and a computer room. The laboratory has adequate equipments for performing various experiments. The department of Physics runs a hobby center for sky observation for last four years. The Department runs a programme to create awareness regarding Energy Saving. The department also arranges visits of students to different institutes like IUCCA Pune,GMRT khodad,NCL Pune, Dept. of Physics,University of Pune, Vidnyan Ashram Pabal. The lecturers of distinguished guests are also arranged by the Department.</p>
+				</div>
 		</div>
 	</div>
 <div class="services">
@@ -101,7 +143,7 @@
 				}
 				.card-image-1 img {
 					width: 100%;
-					border-radius: 3px;
+					border-radius: 8px;
 				}
 				.card {
 					margin-bottom: 10%;
