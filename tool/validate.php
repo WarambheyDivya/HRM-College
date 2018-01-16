@@ -1,4 +1,7 @@
 <?php
+    session_start();
+    $_SESSION['teacher'] = $_POST['username'];
+    
     require_once('getDB.php');
     $username = $_POST['username'];
     $password = $_POST['password'];

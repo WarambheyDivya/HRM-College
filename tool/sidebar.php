@@ -5,7 +5,7 @@
                   <i class="fa fa-bars"></i>
               </div>
             <!--logo start-->
-            <a href="index.php" class="logo">Sinhgad Institute of Technology, Lonavala</a>
+            <a href="index.php" class="logo">Hutatma Rajguru Mahavidyalaya, RajguruNagar</a>
             <img src="img/STES.jpg" height="60" width="130" align = "right">
             <!--logo end-->
         </header>
@@ -18,7 +18,7 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu" id="nav-accordion">
                   <li>
-                      <a class="active" href="index.php">
+                      <a class="active" href="dashboard.php">
                           <i class="fa fa-dashboard"></i>
                           <span>Dashboard</span>
                       </a>

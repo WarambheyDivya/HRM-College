@@ -43,7 +43,7 @@
                             </label>
                         </div>
                     </div>
-                    <input type="text" class="form-control" placeholder="User ID" autofocus name="username">
+                    <input type="text" class="form-control" placeholder="User ID" name="username">
                     <input type="password" class="form-control" placeholder="Password" name="password">
                         <span class="pull-right">
                             <a data-toggle="modal" href="#myModal"> Forgot Password?</a>
