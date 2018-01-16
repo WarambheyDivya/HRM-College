@@ -1,4 +1,4 @@
- <section id="container">
+
       <!--header start-->
       <header class="header white-bg">
               <div class="sidebar-toggle-box">
@@ -10,6 +10,8 @@
             <!--logo end-->
         </header>
       <!--header end-->
+      
+      
       <!--sidebar start-->
       <aside>
           <div id="sidebar"  class="nav-collapse ">
@@ -23,46 +25,47 @@
                   </li>
 
                   <li class="sub-menu">
-                      <a href="javascript:;" >
+                      <a class="active" href="javascript:;" >
                           <i class="fa fa-laptop"></i>
-                          <span>Attendance</span>
+                          <span>Add</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="add_attendance.php">Add Attendance</a></li>
+                          <li class="<?php if($page == 'personal') {echo 'active';}; ?>"><a  href="1.php">Personal</a></li>
+                          <li class="<?php if($page == 'qualification') {echo 'active';}; ?>"><a  href="2.php">Qualification</a></li>
+                          <li class="<?php if($page == 'qualification2') {echo 'active';}; ?>"><a  href="3.php">Qualification(Detailed)</a></li>
+                          <li class="<?php if($page == 'experience') {echo 'active';}; ?>"><a  href="4.php">Experience</a></li>
+                          <li class="<?php if($page == 'other') {echo 'active';}; ?>"><a  href="5.php">Other Info</a></li>
+                          <li class="<?php if($page == 'upload') {echo 'active';}; ?>"><a  href="6.php">Upload</a></li>
                       </ul>
                   </li>
                   
                   <li class="sub-menu">
                       <a href="javascript:;" >
                           <i class="fa fa-laptop"></i>
-                          <span>View Attendance</span>
+                          <span>Modify</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="daily.php">Date Wise</a></li>
-                          <li><a  href="montly.php">Month Wise</a></li>
-                          <li><a href="particular.php">Record Wise</a></li>
+                          <li><a  href="add_attendance.php">Personal</a></li>
+                          <li><a  href="add_attendance.php">Qualification</a></li>
+                          <li><a  href="add_attendance.php">Qualification(Detailed)</a></li>
+                          <li><a  href="add_attendance.php">Experience</a></li>
+                          <li><a  href="add_attendance.php">Other Info</a></li>
+                          <li><a  href="add_attendance.php">Upload</a></li>
                       </ul>
                   </li>
                   
                   <li class="sub-menu">
                       <a href="javascript:;" >
                           <i class="fa fa-laptop"></i>
-                          <span>Get Total</span>
+                          <span>Delete</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="student_count.php">Individual</a></li>
-                          <li><a  href="overall_subjects.php">Overall</a></li>
-                      </ul>
-                  </li>
-                  
-                  <li class="sub-menu">
-                      <a href="javascript:;" >
-                          <i class="fa fa-laptop"></i>
-                          <span>Register</span>
-                      </a>
-                      <ul class="sub">
-                          <li><a  href="../Student/register.php">New Student</a></li>
-                          <li><a  href="../Student/teacherRegister.php">New Faculty</a></li>
+                          <li><a  href="add_attendance.php">Personal</a></li>
+                          <li><a  href="add_attendance.php">Qualification</a></li>
+                          <li><a  href="add_attendance.php">Qualification(Detailed)</a></li>
+                          <li><a  href="add_attendance.php">Experience</a></li>
+                          <li><a  href="add_attendance.php">Other Info</a></li>
+                          <li><a  href="add_attendance.php">Upload</a></li>
                       </ul>
                   </li>
 
@@ -71,5 +74,3 @@
               <!-- sidebar menu end-->
           </div>
       </aside>
-      <!--sidebar end-->
-      </section>
