@@ -1,7 +1,14 @@
 <?php
 	include('getDB.php');
 
-	$q = "INSERT INTO `qualification`(`email`, `qualification_1`, `qualification_2`, `qualification_3`, `phd_status`, `completed`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6])";
+	$email = $_POST['email'];
+	$qualification_1 = $_POST['qualification_1'];
+	$qualification_2 = $_POST['qualification_2'];
+	$qualification_3 = $_POST['qualification_3'];
+	$phd_status = $_POST['phd_status'];
+	$completed = $_POST['completed'];
+
+	$q = "INSERT INTO `qualification`(`email`, `qualification_1`, `qualification_2`, `qualification_3`, `phd_status`, `completed`) VALUES ('$email','$qualification_1','$qualification_2','$qualification_3','$phd_status','$completed')";
 	
 	$result = mysqli_query($con, $q);
 

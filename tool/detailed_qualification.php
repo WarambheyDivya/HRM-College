@@ -1,7 +1,19 @@
 <?php
 	include('getDB.php');
 
-	$q = "INSERT INTO `detailed_qualification`(`email`, `select_degree`, `marks`, `grade`, `board`, `college`, `degree_name`, `specialization`, `year_of_passing`, `division`, `marksheet`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6],[value-7],[value-8],[value-9],[value-10],[value-11])";
+	$email = $_POST['email'];
+	$select_degree = $_POST['select_degree'];
+	$marks = $_POST['marks'];
+	$grade = $_POST['grade'];
+	$board = $_POST['board'];
+	$college = $_POST['college'];
+	$degree_name = $_POST['degree_name'];
+	$specialization = $_POST['specialization'];
+	$year_of_passing = $_POST['year_of_passing'];
+	$division = $_POST['division'];
+	$marksheet = $_POST['marksheet'];
+
+	$q = "INSERT INTO `detailed_qualification`(`email`, `select_degree`, `marks`, `grade`, `board`, `college`, `degree_name`, `specialization`, `year_of_passing`, `division`, `marksheet`) VALUES (`$email`, `$select_degree`, `$marks`, `$grade`, `$board`, `$college`, `$degree_name`, `$specialization`, `$year_of_passing`, `$division`, '$marksheet`)";
 	
 	$result = mysqli_query($con, $q);
 
