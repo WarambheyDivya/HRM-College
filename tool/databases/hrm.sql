@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 16, 2018 at 10:53 AM
+-- Generation Time: Jan 16, 2018 at 10:58 AM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 5.6.20
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `project_hrm`
+-- Database: `hrm`
 --
 
 -- --------------------------------------------------------
@@ -81,6 +81,26 @@ CREATE TABLE `consultancy` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `detailed_qualification`
+--
+
+CREATE TABLE `detailed_qualification` (
+  `email` varchar(256) NOT NULL,
+  `select_degree` varchar(256) NOT NULL,
+  `marks` varchar(256) NOT NULL,
+  `grade` varchar(256) NOT NULL,
+  `board` varchar(256) NOT NULL,
+  `college` varchar(256) NOT NULL,
+  `degree_name` varchar(256) NOT NULL,
+  `specialization` varchar(256) NOT NULL,
+  `year_of_passing` varchar(256) NOT NULL,
+  `division` varchar(256) NOT NULL,
+  `marksheet` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `development_program`
 --
 
@@ -95,6 +115,32 @@ CREATE TABLE `development_program` (
   `orientation_program` varchar(256) NOT NULL,
   `level` varchar(256) NOT NULL,
   `dev_upload` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `documents`
+--
+
+CREATE TABLE `documents` (
+  `email` varchar(256) NOT NULL,
+  `pan` varchar(256) NOT NULL,
+  `aadhar` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `experience`
+--
+
+CREATE TABLE `experience` (
+  `email` varchar(256) NOT NULL,
+  `teaching` varchar(256) NOT NULL,
+  `industrial` varchar(256) NOT NULL,
+  `research` varchar(256) NOT NULL,
+  `uni_exam_evaluator` varchar(256) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -133,6 +179,35 @@ CREATE TABLE `live_projects` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `login`
+--
+
+CREATE TABLE `login` (
+  `email` varchar(256) NOT NULL,
+  `password` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`email`, `password`) VALUES
+('admin@test.com', 'root');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `master`
+--
+
+CREATE TABLE `master` (
+  `department` varchar(1000) NOT NULL,
+  `stream` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `ood_details`
 --
 
@@ -143,6 +218,39 @@ CREATE TABLE `ood_details` (
   `purpose` varchar(256) NOT NULL,
   `venue` varchar(256) NOT NULL,
   `OOD_upload` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `other_info`
+--
+
+CREATE TABLE `other_info` (
+  `email` varchar(256) NOT NULL,
+  `gender` varchar(256) NOT NULL,
+  `Telephone` varchar(10) NOT NULL,
+  `date_of_joining` decimal(10,0) NOT NULL,
+  `per_address` varchar(256) NOT NULL,
+  `religion` varchar(256) NOT NULL,
+  `city` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `persnol_details`
+--
+
+CREATE TABLE `persnol_details` (
+  `email` varchar(256) NOT NULL,
+  `name` varchar(256) NOT NULL,
+  `designation` varchar(256) NOT NULL,
+  `dob` date NOT NULL,
+  `mobile` varchar(10) NOT NULL,
+  `address` varchar(1000) NOT NULL,
+  `postal_code` varchar(6) NOT NULL,
+  `appointment` varchar(256) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -188,6 +296,21 @@ CREATE TABLE `publication_detail` (
   `yop` varchar(256) NOT NULL,
   `affiliating_institute` varchar(256) NOT NULL,
   `publication_upload` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `qualification`
+--
+
+CREATE TABLE `qualification` (
+  `email` varchar(256) NOT NULL,
+  `qualification_1` varchar(256) NOT NULL,
+  `qualification_2` varchar(256) NOT NULL,
+  `qualification_3` varchar(256) NOT NULL,
+  `phd_status` varchar(256) NOT NULL,
+  `completed` varchar(256) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -255,9 +378,27 @@ ALTER TABLE `consultancy`
   ADD PRIMARY KEY (`email`);
 
 --
+-- Indexes for table `detailed_qualification`
+--
+ALTER TABLE `detailed_qualification`
+  ADD PRIMARY KEY (`email`);
+
+--
 -- Indexes for table `development_program`
 --
 ALTER TABLE `development_program`
+  ADD PRIMARY KEY (`email`);
+
+--
+-- Indexes for table `documents`
+--
+ALTER TABLE `documents`
+  ADD PRIMARY KEY (`email`);
+
+--
+-- Indexes for table `experience`
+--
+ALTER TABLE `experience`
   ADD PRIMARY KEY (`email`);
 
 --
@@ -273,9 +414,27 @@ ALTER TABLE `live_projects`
   ADD PRIMARY KEY (`email`);
 
 --
+-- Indexes for table `login`
+--
+ALTER TABLE `login`
+  ADD PRIMARY KEY (`email`);
+
+--
 -- Indexes for table `ood_details`
 --
 ALTER TABLE `ood_details`
+  ADD PRIMARY KEY (`email`);
+
+--
+-- Indexes for table `other_info`
+--
+ALTER TABLE `other_info`
+  ADD PRIMARY KEY (`email`);
+
+--
+-- Indexes for table `persnol_details`
+--
+ALTER TABLE `persnol_details`
   ADD PRIMARY KEY (`email`);
 
 --
@@ -288,6 +447,12 @@ ALTER TABLE `project_details`
 -- Indexes for table `publication_detail`
 --
 ALTER TABLE `publication_detail`
+  ADD PRIMARY KEY (`email`);
+
+--
+-- Indexes for table `qualification`
+--
+ALTER TABLE `qualification`
   ADD PRIMARY KEY (`email`);
 
 --
