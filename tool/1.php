@@ -31,8 +31,9 @@ include 'footer.php';
         
     <section id="main-content">
         <section class="wrapper">
-            <div class="row" style="width: 40%; margin: 5% 0 10% 5%;">
-                <form action="persnol.php" method="post">
+            <div class="row" style="width: 40%; margin: 2% 0 10% 5%;">
+                <h2 style=" font-weight: bold;">Personal Details</h2>
+                <form style="padding-top: 6%;" action="persnol.php" method="post">
                     <div class="form-group row">
                         <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                         <div class="col-sm-10">

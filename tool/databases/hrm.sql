@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 16, 2018 at 10:58 AM
+-- Generation Time: Jan 16, 2018 at 12:41 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 5.6.20
 
@@ -354,45 +354,9 @@ CREATE TABLE `teaching_method` (
 --
 
 --
--- Indexes for table `awards`
---
-ALTER TABLE `awards`
-  ADD PRIMARY KEY (`email`);
-
---
--- Indexes for table `bos_boe`
---
-ALTER TABLE `bos_boe`
-  ADD PRIMARY KEY (`email`);
-
---
--- Indexes for table `committee`
---
-ALTER TABLE `committee`
-  ADD PRIMARY KEY (`email`);
-
---
--- Indexes for table `consultancy`
---
-ALTER TABLE `consultancy`
-  ADD PRIMARY KEY (`email`);
-
---
 -- Indexes for table `detailed_qualification`
 --
 ALTER TABLE `detailed_qualification`
-  ADD PRIMARY KEY (`email`);
-
---
--- Indexes for table `development_program`
---
-ALTER TABLE `development_program`
-  ADD PRIMARY KEY (`email`);
-
---
--- Indexes for table `documents`
---
-ALTER TABLE `documents`
   ADD PRIMARY KEY (`email`);
 
 --
@@ -402,27 +366,9 @@ ALTER TABLE `experience`
   ADD PRIMARY KEY (`email`);
 
 --
--- Indexes for table `guest_lecture`
---
-ALTER TABLE `guest_lecture`
-  ADD PRIMARY KEY (`email`);
-
---
--- Indexes for table `live_projects`
---
-ALTER TABLE `live_projects`
-  ADD PRIMARY KEY (`email`);
-
---
 -- Indexes for table `login`
 --
 ALTER TABLE `login`
-  ADD PRIMARY KEY (`email`);
-
---
--- Indexes for table `ood_details`
---
-ALTER TABLE `ood_details`
   ADD PRIMARY KEY (`email`);
 
 --
@@ -438,33 +384,9 @@ ALTER TABLE `persnol_details`
   ADD PRIMARY KEY (`email`);
 
 --
--- Indexes for table `project_details`
---
-ALTER TABLE `project_details`
-  ADD PRIMARY KEY (`email`);
-
---
--- Indexes for table `publication_detail`
---
-ALTER TABLE `publication_detail`
-  ADD PRIMARY KEY (`email`);
-
---
 -- Indexes for table `qualification`
 --
 ALTER TABLE `qualification`
-  ADD PRIMARY KEY (`email`);
-
---
--- Indexes for table `seminar_workshop`
---
-ALTER TABLE `seminar_workshop`
-  ADD PRIMARY KEY (`email`);
-
---
--- Indexes for table `teaching_method`
---
-ALTER TABLE `teaching_method`
   ADD PRIMARY KEY (`email`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
